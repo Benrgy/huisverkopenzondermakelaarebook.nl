@@ -67,9 +67,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
     <link rel="preconnect" href="https://www.paypro.nl" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
     
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">
@@ -121,13 +123,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
-                    <h2 class="text-xl font-bold text-primary-700">Succesvol Uw Huis Verkopen</h2>
+                    <div class="text-xl font-bold text-primary-700">Succesvol Uw Huis Verkopen</div>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#voordelen" class="text-gray-700 hover:text-primary-600 transition-colors">Voordelen</a>
                     <a href="#proces" class="text-gray-700 hover:text-primary-600 transition-colors">Hoe Het Werkt</a>
                     <a href="#testimonials" class="text-gray-700 hover:text-primary-600 transition-colors">Ervaringen</a>
                     <a href="#faq" class="text-gray-700 hover:text-primary-600 transition-colors">FAQ</a>
+                    <a href="/huisverkopenzondermakelaarebook.nl/wiki.html" class="text-gray-700 hover:text-primary-600 transition-colors">Wiki</a>
                 </div>
                 <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors" aria-label="Download het eBook via PayPro">
                     Download Nu
@@ -205,7 +208,7 @@
                          alt="Mooi Nederlands huis te koop"
                          width="1000" height="667" fetchpriority="high" decoding="async"
                          class="rounded-2xl shadow-2xl">
-                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-lg" style="width: 180px; height: 100px;">
                         <div class="text-center">
                             <div class="text-3xl font-bold text-primary-700">€15.000+</div>
                             <div class="text-sm text-gray-600">Gemiddelde meerwaarde</div>
@@ -317,7 +320,7 @@
     <!-- Local SEO Regions -->
     <section class="bg-gray-50 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-2xl font-bold mb-4">Regio's waar wij actief zijn:</h2>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Regio's waar wij actief zijn:</h2>
             <div class="flex flex-wrap justify-center gap-3">
                 <span class="bg-white px-4 py-2 rounded-full shadow-sm">Amsterdam</span>
                 <span class="bg-white px-4 py-2 rounded-full shadow-sm">Rotterdam</span>
@@ -337,14 +340,7 @@
     <section id="faq"></section>
     <section id="download"></section>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);} 
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
+    <!-- Google Analytics - Removed placeholder to reduce unused JS -->
 
     <script src="app.js"></script>
 </body>
