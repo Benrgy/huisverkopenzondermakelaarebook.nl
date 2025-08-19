@@ -8,10 +8,10 @@
     <meta name="keywords" content="huis verkopen zonder makelaar, stappenplan huis verkopen, woning verkopen tips, eBook huis verkopen, particulier huis verkopen">
     
     <!-- Favicon Package -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Succesvol Uw Huis Verkopen in Nederland | Expert Tips">
@@ -28,30 +28,34 @@
     <meta name="twitter:title" content="Huis Verkopen Zonder Makelaar – Stappenplan & Tips (eBook)">
     <meta name="twitter:description" content="Leer bewezen technieken om uw verkoopprijs te maximaliseren en sneller te verkopen. Download het complete stappenplan.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta name="theme-color" content="#1e40af">
     
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com" defer></script>
+    <!-- Tailwind Config must be defined before loading the CDN script -->
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: {
-                            50: '#f0f9ff',
-                            500: '#3b82f6',
-                            600: '#2563eb',
-                            700: '#1d4ed8',
-                            900: '#1e3a8a'
-                        },
-                        accent: {
-                            500: '#f59e0b',
-                            600: '#d97706'
+        tailwind = {
+            config: {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: {
+                                50: '#f0f9ff',
+                                500: '#3b82f6',
+                                600: '#2563eb',
+                                700: '#1d4ed8',
+                                900: '#1e3a8a'
+                            },
+                            accent: {
+                                500: '#f59e0b',
+                                600: '#d97706'
+                            }
                         }
                     }
                 }
             }
         }
     </script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -107,7 +111,7 @@
       </div>
     </noscript>
     <!-- Navigation -->
-    <nav class="bg-white/80 backdrop-blur border-b border-gray-100 sticky top-0 z-50">
+    <nav class="bg-white/80 backdrop-blur border-b border-gray-100 sticky top-0 z-50" aria-label="Hoofdnavigatie">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
@@ -119,7 +123,7 @@
                     <a href="#testimonials" class="text-gray-700 hover:text-primary-600 transition-colors">Ervaringen</a>
                     <a href="#faq" class="text-gray-700 hover:text-primary-600 transition-colors">FAQ</a>
                 </div>
-                <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors">
+                <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors" aria-label="Download het eBook via PayPro">
                     Download Nu
                 </a>
             </div>
@@ -170,7 +174,7 @@
                         </ul>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 text-center">
+                        <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 text-center" aria-label="Download eBook nu via PayPro">
                             Download eBook Nu
                         </a>
                         <a href="#voordelen" class="border-2 border-white text-white hover:bg-white hover:text-primary-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all text-center">
@@ -218,7 +222,7 @@
             
             <!-- Sticky CTA Bar -->
             <div class="mt-8 text-center">
-                <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-6 py-2 rounded-full font-semibold text-sm transition-all inline-block">
+                <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="bg-accent-500 hover:bg-accent-600 text-white px-6 py-2 rounded-full font-semibold text-sm transition-all inline-block" aria-label="Download eBook - prijs 29 euro via PayPro">
                     🏠 Download Nu - €29
                 </a>
             </div>
@@ -234,7 +238,7 @@
                 <p>Je leert hoe je een realistische vraagprijs bepaalt, je woning presenteert voor foto’s en bezichtigingen, en hoe je sterke advertentieteksten schrijft. Ook behandelen we onderhandelen, juridische aandachtspunten en het plannen van bezichtigingen. Alles is afgestemd op de Nederlandse woningmarkt.</p>
                 <p>Of je nu zonder makelaar verkoopt of gewoon meer grip wilt wanneer je wél met een makelaar werkt: dit eBook helpt je betere keuzes te maken en fouten te voorkomen. Zo vergroot je de kans op een snelle verkoop tegen een goede prijs.</p>
                 <div>
-                    <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="inline-block bg-accent-500 hover:bg-accent-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors">Download het eBook</a>
+                    <a href="https://www.paypro.nl/producten/Succesvol_Uw_Huis_Verkopen/457/14535" target="_blank" rel="noopener noreferrer" class="inline-block bg-accent-500 hover:bg-accent-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors" aria-label="Download het eBook via PayPro">Download het eBook</a>
                 </div>
             </div>
         </div>
