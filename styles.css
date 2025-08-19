@@ -27,3 +27,8 @@ a:focus-visible, button:focus-visible {
 .text-shadow {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
+
+/* Smaller text shadow variant */
+.text-shadow-sm {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
