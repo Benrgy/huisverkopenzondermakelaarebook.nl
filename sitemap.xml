@@ -6,4 +6,22 @@
     <priority>1.0</priority>
     <lastmod>2025-08-19</lastmod>
   </url>
+  <url>
+    <loc>https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/README.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2025-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/testimonials.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-08-19</lastmod>
+  </url>
+  <url>
+    <loc>https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/wiki.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-08-19</lastmod>
+  </url>
 </urlset>
