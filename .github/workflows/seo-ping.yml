@@ -1,0 +1,27 @@
+name: SEO Sitemap Ping
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'sitemap.xml'
+      - '.github/workflows/seo-ping.yml'
+      - 'index.html'
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set sitemap URL
+        run: echo "SITEMAP_URL=https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/sitemap.xml" >> $GITHUB_ENV
+
+      - name: Ping Google
+        run: |
+          curl -sS "https://www.google.com/ping?sitemap=${SITEMAP_URL}" -o /dev/null -w "%{http_code}\n"
+
+      - name: Ping Bing
+        run: |
+          curl -sS "https://www.bing.com/ping?sitemap=${SITEMAP_URL}" -o /dev/null -w "%{http_code}\n"
