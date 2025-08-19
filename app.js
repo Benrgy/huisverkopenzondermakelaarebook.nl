@@ -1,7 +1,5 @@
 // Dynamic content for the website
 document.addEventListener('DOMContentLoaded', function() {
-    const appContent = document.getElementById('app-content');
-    
     const content = `
     <!-- Services/Features Section -->
     <section id="voordelen" class="bg-gray-50 py-20">
@@ -551,12 +549,28 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </footer>
     `;
-    
-    appContent.innerHTML = content;
+
+    // Mount into server-rendered placeholder sections to ensure anchors exist without JS
+    (function mountSections() {
+        const tmp = document.createElement('div');
+        tmp.innerHTML = content;
+        const sectionIds = ['voordelen', 'proces', 'testimonials', 'lokale-tips', 'faq', 'download'];
+        sectionIds.forEach(id => {
+            const fromTmp = tmp.querySelector(`#${id}`);
+            const placeholder = document.getElementById(id);
+            if (fromTmp && placeholder) {
+                placeholder.replaceWith(fromTmp);
+            }
+        });
+        const footer = tmp.querySelector('footer');
+        if (footer) {
+            document.body.appendChild(footer);
+        }
+    })();
 
     // Insert urgency timer before the first PayPro CTA
     (function insertUrgencyTimer() {
-        const firstCta = appContent.querySelector('a[href*="paypro.nl/producten/Succesvol_Uw_Huis_Verkopen"]');
+        const firstCta = document.querySelector('a[href*="paypro.nl/producten/Succesvol_Uw_Huis_Verkopen"]');
         if (!firstCta) return;
 
         const container = document.createElement('div');
