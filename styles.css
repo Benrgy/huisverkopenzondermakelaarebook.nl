@@ -22,3 +22,8 @@ a:focus-visible, button:focus-visible {
   z-index: 1000;
 }
 .skip-link:focus { top: 0.5rem; }
+
+/* Subtle text shadow for hero headings */
+.text-shadow {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
