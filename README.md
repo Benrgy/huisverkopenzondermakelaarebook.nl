@@ -1,7 +1,7 @@
 
 ---
 
-## 📖 Wiki Inhoud
+## 📖 Wiki Inhoud Huis verkopen zonder makelaar
 
 ### Hoofdonderwerpen en Interne Links
 
