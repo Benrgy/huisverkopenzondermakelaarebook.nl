@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /huisverkopenzondermakelaarebook.nl/
-
-Sitemap: https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/sitemap.xml
