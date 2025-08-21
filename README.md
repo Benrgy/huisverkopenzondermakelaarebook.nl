@@ -147,7 +147,7 @@ Bijdragen zijn welkom! Vooral voor:
 
 ## 📞 Contact & Support
 
-- **Website**: [benrgy.github.io/huisverkopenzondermakelaarebook.nl](https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/)
+- **Website**: [huisverkopenzondermakelaar.store](https://huisverkopenzondermakelaar.store/)
 - **Issues**: [GitHub Issues](https://github.com/benrgy/huisverkopenzondermakelaarebook.nl/issues)
 - **Wiki**: [Project Wiki](https://github.com/benrgy/huisverkopenzondermakelaarebook.nl/wiki)
 
@@ -176,7 +176,7 @@ Deze gids biedt de complete roadmap voor Nederlandse huiseigenaren die hun wonin
 
 ---
 
-**🔗 Bezoek de volledige gids:** [https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/](https://benrgy.github.io/huisverkopenzondermakelaarebook.nl/)
+**🔗 Bezoek de volledige gids:** [https://huisverkopenzondermakelaar.store/](https://huisverkopenzondermakelaar.store/)
 
 ---
 
