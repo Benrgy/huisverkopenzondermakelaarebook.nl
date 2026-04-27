@@ -1,6 +1,9 @@
+# Huis Verkopen Zonder Makelaar 🏡
+> **Bespaar duizenden euro's aan makelaarskosten.** Leer bewezen methodes om uw huis in Nederland snel te verkopen tegen de maximale prijs.
+
+👉 **[Ga direct naar de ultieme gids en download het eBook](https://huisverkopenzondermakelaar.store/)**
 
 ---
-
 ## 📖 Wiki Inhoud Huis verkopen zonder makelaar
 
 ### Hoofdonderwerpen en Interne Links
